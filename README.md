@@ -28,8 +28,9 @@ dog_two = {
 ```
 
 In the previous lesson, we mentioned that hash keys can be any data type. You
-also may have noticed that we quickly switched to using [_symbols_][symbols]
-for our keys in most of the examples. There is a particular reason for this.
+also may have noticed, though, that we quickly switched to using
+[_symbols_][symbols] for our keys in most of the examples. There is a particular
+reason for this.
 
 In this lesson, we're going to discuss symbols and why they are ideal to use as
 keys in our hashes. They are so frequently preferred, in fact, that Ruby has an
