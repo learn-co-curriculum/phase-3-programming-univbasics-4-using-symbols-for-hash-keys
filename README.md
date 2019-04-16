@@ -27,7 +27,7 @@ dog_two = {
 #=> {:name=>"Lola", :breed=>"Giant Schnauzer"}
 ```
 
-In the previous lesson, we mentioned that hash keys can be any data type. You
+In the previous lessons, we mentioned that hash keys can be any data type. You
 also may have noticed, though, that we quickly switched to using
 [_symbols_][symbols] for our keys in most of the examples. There is a particular
 reason for this.
