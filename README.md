@@ -2,15 +2,15 @@
 
 ## Learning Goals
 
-- Review the Symbol data type
+- Review the `Symbol` data type
 - Recognize the immutability of symbols
 - Compare the use of symbols and strings as hash keys
 - Recognize Ruby's alternate syntax for hashes with symbols for keys
 
 ## Introduction
 
-We know that hashes are data structures comprised of key/value pairs. We also
-know we can create hashes simply by writing out key/value pairs wrapped in curly
+We saw that hashes are data structures comprised of key/value pairs. We also saw
+that we can create hashes simply by writing out key/value pairs wrapped in curly
 braces:
 
 ```ruby
@@ -38,7 +38,7 @@ alternative syntax for writing hashes with symbols for keys.
 
 ## Using Symbols for Hash Keys
 
-Just to quickly review, [symbols][] are a scalar data type. They share some
+Just to quickly review, symbols are a scalar data type. They share some
 similarities with strings, but instead of being wrapped in quotations, symbols
 always start with a colon (`:`):
 
@@ -145,4 +145,5 @@ for the symbol.
 
 ## Resources
 
+[symbol]: https://ruby-doc.org/core-2.5.0/Symbol.html
 [immutable]: https://en.wikipedia.org/wiki/Immutable_object
