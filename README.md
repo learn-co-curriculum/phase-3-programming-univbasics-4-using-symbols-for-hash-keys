@@ -38,7 +38,7 @@ alternative syntax for writing hashes with symbols for keys.
 
 ## Using Symbols for Hash Keys
 
-Just to quickly review, [symbols][] are a scalar data type. They share some
+Just to quickly review, [symbols][symbols] are a scalar data type. They share some
 similarities with strings, but instead of being wrapped in quotations, symbols
 always start with a colon (`:`):
 
@@ -146,3 +146,4 @@ for the symbol.
 ## Resources
 
 [immutable]: https://en.wikipedia.org/wiki/Immutable_object
+[symbols]: https://ruby-doc.org/core-2.6.3/Symbol.html
