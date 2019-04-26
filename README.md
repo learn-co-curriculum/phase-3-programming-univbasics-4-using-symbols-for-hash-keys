@@ -38,7 +38,7 @@ alternative syntax for writing hashes with symbols for keys.
 
 ## Using Symbols for Hash Keys
 
-Just to quickly review, symbols are a scalar data type. They share some
+Just to quickly review, [symbols][symbols] are a scalar data type. They share some
 similarities with strings, but instead of being wrapped in quotations, symbols
 always start with a colon (`:`):
 
@@ -103,7 +103,7 @@ dog_two = {
 The symbols `:name` and `:breed` are used multiple times in separate hashes, but
 refer to the **same allocation in memory**. As we'll see soon, we sometimes deal
 with many, many hashes, all with the same keys pointing to different values. If
-we use strings in this case, we would create many, many allocations of
+we use strings, in this case, we would create many, many allocations of
 memory. By using _symbols_ for our keys, we only use one! For this reason,
 symbols are almost always the best choice for keys when creating hashes.
 
@@ -130,10 +130,27 @@ A few things have changed. For starters, the symbols `:name` and `:breed` no
 longer have a colon before them. Instead, they have a colon immediately _after_,
 in place of the hash-rocket.
 
-This syntax only works for keys that are symbols, but is similar in syntax to
+This syntax only works for keys that are symbols but is similar in syntax to
 how other languages like JavaScript write their key/value pairs.
 
 When displaying a hash, Ruby will still display the old hash-rocket format.
+
+You might be wondering, why does this even exist? With the rise in popularity
+of JavaScript, full-stack developers got used to writing the following in
+JavaScript (what JavaScript developers call "JSON," pronounced like "Jay-sawn"):
+
+```js
+dog_two = {
+  name: "Lola",
+  breed: "Giant Schnauzer"
+};
+```
+
+Yep, that's valid JavaScript **and** valid Ruby! In recent times, when defining
+a Hash, it has become more common to use this "alternate" format. You'll
+definitely see a lot of the old "hash-rocket" syntax. Neither is better or
+worse. They're just different ways of expressing the idea of key/value pairs
+within a collection.
 
 ## Conclusion
 
@@ -145,5 +162,7 @@ for the symbol.
 
 ## Resources
 
-[symbol]: https://ruby-doc.org/core-2.5.0/Symbol.html
+[Symbols][symbols]
+
 [immutable]: https://en.wikipedia.org/wiki/Immutable_object
+[symbols]: https://ruby-doc.org/core-2.6.3/Symbol.html
