@@ -9,8 +9,8 @@
 
 ## Introduction
 
-We know that hashes are data structures comprised of key/value pairs. We also
-know we can create hashes simply by writing out key/value pairs wrapped in curly
+We saw that hashes are data structures comprised of key/value pairs. We also saw
+that we can create hashes simply by writing out key/value pairs wrapped in curly
 braces:
 
 ```ruby
@@ -162,7 +162,7 @@ for the symbol.
 
 ## Resources
 
-- [Ruby `Symbol` Documentation][symbols]
+[Symbols][symbols]
 
 [immutable]: https://en.wikipedia.org/wiki/Immutable_object
 [symbols]: https://ruby-doc.org/core-2.6.3/Symbol.html
