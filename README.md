@@ -145,5 +145,7 @@ for the symbol.
 
 ## Resources
 
+* [Ruby `Symbol` Documentation][symbols]
+
 [immutable]: https://en.wikipedia.org/wiki/Immutable_object
 [symbols]: https://ruby-doc.org/core-2.6.3/Symbol.html
