@@ -135,6 +135,24 @@ how other languages like JavaScript write their key/value pairs.
 
 When displaying a hash, Ruby will still display the old hash-rocket format.
 
+You might be wondering, why does this even exist? With the rise on popularity
+of JavaScript, full-stack developers got used to writing the following in
+JavaScript (what JavaScript developers call "JSON," pronounced like "Jay-sawn"):
+
+```js
+dog_two = {
+  name: "Lola",
+  breed: "Giant Schnauzer"
+}
+```
+
+
+Yep, that's valid JavaScript **and** valid Ruby! In recent times, when defining
+a Hash, it has become more common to use this "alternate" format. You'll definitely
+see a lot of the old "hash-rocket" syntax. Neither is better or worse. They're just
+different ways of expressing the idea of key/value pairs within a collection.
+
+
 ## Conclusion
 
 Symbols are a great choice to use for keys when constructing hashes. Although
