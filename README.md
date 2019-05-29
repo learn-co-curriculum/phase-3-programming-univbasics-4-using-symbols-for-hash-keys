@@ -139,7 +139,7 @@ You might be wondering, why does this even exist? With the rise in popularity
 of JavaScript, full-stack developers got used to writing the following in
 JavaScript (what JavaScript developers call "JSON," pronounced like "Jay-sawn"):
 
-```js
+```JS
 dog_two = {
   name: "Lola",
   breed: "Giant Schnauzer"
