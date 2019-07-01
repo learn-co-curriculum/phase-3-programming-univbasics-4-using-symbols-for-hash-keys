@@ -78,7 +78,7 @@ written, **they take up separate allocations of memory**. Every string we write
 is given a **new** allocation. This is because string data can change and Ruby
 needs to take this into account.
 
-Symbols, unlike strings, **cannot by changed**. That is to say, symbols are
+Symbols, unlike strings, **cannot be changed**. That is to say, symbols are
 [_immutable_][immutable]. They are _unique_ in Ruby's eyes, and once created,
 always refer to the same point in memory. This works well for hash keys. Once a
 key/value pair is defined in a hash, we might change the _value_ of the pair,
